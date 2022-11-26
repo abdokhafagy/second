@@ -1,1 +1,18 @@
+on:
+  push:
+    branch:
+      - master
 
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-laster
+
+    steps:
+      - name: 'Testing Github Printing'
+        run: pwd
+
+      - name: 'Testing Printing'
+        run: echo Abdo

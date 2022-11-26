@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: 'Testing Github Printing'
         run: pwd
-
+ 
       - name: 'Testing Printing'
         run: echo Abdo
+
+      -uses: action/checkout@v3  

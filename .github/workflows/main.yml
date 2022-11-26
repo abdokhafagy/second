@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    run-on: ubuntu-laster
+    runs-on: ubuntu-laster
 
     steps:
       - name: 'Testing Github Printing'
@@ -17,4 +17,7 @@ jobs:
       - name: 'Testing Printing'
         run: echo Abdo
 
-      -uses: action/checkout@v3  
+      -uses: action/checkout@v3 
+
+      -name:"Login to Docker hub"
+        run: 
